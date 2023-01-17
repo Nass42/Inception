@@ -1,0 +1,1 @@
+grafana-cli --homepath "/usr/share/grafana" admin reset-admin-password 123456789
