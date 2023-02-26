@@ -1,4 +1,4 @@
-FROM alpine:3.16
+FROM alpine:latest
 
 RUN apk update && apk add --no-cache grafana
 COPY requirements/bonus/grafana/conf/grafana.ini /etc/grafana/grafana.ini
